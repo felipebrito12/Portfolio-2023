@@ -1,0 +1,140 @@
+ <!-- HEADER  -->
+  <header>
+    <div class="contentArea">
+      <div class="logo"><span>&lt;/</span>Felipe Brito<span>&gt;</span></div>
+      <nav>
+        <div class="mobileMenu">
+          <div class="menuBar"></div>
+          <div class="menuBar"></div>
+          <div class="menuBar"></div>
+        </div>
+        <ul class="navList">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#aboutMe">SOBRE MIM</a></li>
+          <li><a href="#technologies">TECNOLOGIAS</a></li>
+          <li><a href="#projects">PROJETOS</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HOME -->
+  <section class="container container01" id="home">
+    <div class="contentArea">
+      <div class="mainText">
+        <p id="title">Olá! Eu me chamo</p>
+        <h1 id="name">Felipe Brito <span>e</span></h1>
+        <p id="subtitle">Sou um desenvolvedor Front-end</p>
+        <div class="contacts">
+          <ul>
+            <li><a href="#"> <img src="images/icons/github2.png" alt=""> </a></li>
+            <li><a href="#"><img src="images/icons/linkedin.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="laptopArea">
+        <img src="images/animations/laptop.gif" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT ME -->
+  <section class="container container02" id="aboutMe">
+    <div class="contentArea">
+      <div class="sectionTitleArea">
+        <h2 class="sectionTitle">Quem sou eu?</h2>
+        <div class="bar"></div>
+      </div>
+      <p>Meu nome é Felipe Brito Sousa e sempre tive interesse nas áreas de tecnologia. Ainda na adolescência tive meu
+        primeiro contato com programação atráves do GameMaker Studio. Uma engine direcionada para criação de jogos 2D
+        com linguagem própria. Apesar disso, meu caminho dentro da programação só começou realmente em julho de 2022,
+        através do desenvolvimento web.</p>
+      <br>
+      <p>Atualmente mantenho meus estudos no Front-end e estou buscando minha primeira experiência profissional na área,
+        mas com planos de futuramente adentrar no Back-end.</p>
+    </div>
+  </section>
+
+  <!-- TECHNOLOGIES -->
+  <section class="container container03" id="technologies">
+    <div class="contentArea">
+      <div class="sectionTitleArea">
+        <h2 class="sectionTitle">TECNOLOGIAS</h2>
+        <div class="bar"></div>
+      </div>
+      <div class="technologiesArea">
+        <div class="technologiesGrid">
+          <div class="tech" id="html5">
+            <img src="images/icons/html5.png" alt="Logo HTML5">
+            <div class="techDesc" data-desc="html5">
+              <p>HTML5, sigla para Hypertext Markup Language, é uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web. Sendo uma das bases do desenvolvimento web.</p>
+            </div>
+          </div>
+          <div class="tech" id="css3">
+            <img src="images/icons/css3.png" alt="Logo CSS3">
+            <div class="techDesc" data-desc="css3">
+              <p>Cascading Style Sheets, ou CSS, é um mecanismo para adicionar estilos a uma página web, aplicando design personalizados nas tags HTML.</p>
+            </div>
+          </div>
+          <div class="tech" id="sass">
+            <img src="images/icons/sass.png" alt="Logo Sass">
+            <div class="techDesc" data-desc="sass">
+              <p>SASS é um pré-processador CSS que adiciona novos recursos ao CSS básico, deixando o processo de estilização da página mais intuitiva e organizada. Após processado o SASS gera CSS comum.</p>
+            </div>
+          </div>
+          <div class="tech" id="javascript">
+            <img src="images/icons/javascript.png" alt="Log Javascript">
+            <div class="techDesc" data-desc="javascript">
+              <p>JavaScript é uma linguagem de programação interpretada estruturada, sendo comumente utilizada para criar as interações entre o usuário e a página web</p><br>
+              <p>Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</p>
+            </div>
+          </div>
+          <div class="tech" id="git">
+            <img src="images/icons/git.png" alt="Logo Git">
+            <div class="techDesc" data-desc="git">
+              <p>GIT é um Sistema de Controle de Versões Distribuído. Estes sistemas de controle permitem registrar quaisquer alterações feitas em um código, armazenando essas informações e permitindo que o desenvolvedor possa regredir a versões anteriores de uma aplicação</p><br>
+              <p><strong>Este é um estudo futuro</strong></p>
+            </div>
+          </div>
+          <div class="tech" id="bootstrap">
+            <img src="images/icons/bootstrap.png" alt="Logo Bootstrap">
+            <div class="techDesc" data-desc="bootstrap">
+              <p>O bootstrap é uma estrutura de desenvolvimento web de código aberto e gratuita. Foi projetada para facilitar o processo de criação de sites responsivos para dispositivos móveis, fornecendo uma coleção de sintaxe para designs de modelo.</p><br>
+              <p><strong>Este é um estudo futuro</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="techDescArea">
+          <p>Clique em uma das logos para saber mais</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="container container04" id="projects">
+    <div class="contentArea">
+      <div class="sectionTitleArea">
+        <h2 class="sectionTitle">PROJETOS</h2>
+        <div class="bar"></div>
+      </div>
+      <div class="projectsGrid">
+        <a href="https://felipebrito12.github.io/menu-de-restaurante/" target="_blank">
+          <div class="project" id="project01">
+            <div class="projectDesc">Cardápio virtual criado com HTML, CSS, Javascript e Sass</div>
+            <span>Menu de Restaurante</span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="project"><span>EM BREVE</span></div>
+        </a>
+        <a href="#">
+          <div class="project"><span>EM BREVE</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>&copy;2023 Felipe Brito</span>
+  </footer>
