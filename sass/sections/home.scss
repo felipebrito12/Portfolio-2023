@@ -1,8 +1,9 @@
 #home {
   background-color: $backgroundColor;
-
+  
   .content {
     .mainText {
+      align-self: flex-start;
       color: white;
       padding: 10px;
   
@@ -17,6 +18,7 @@
 
     .contacts {
       margin-left: 10px;
+      align-self: flex-start;
       a {
         display: inline-flex;
         justify-content: center;
@@ -33,7 +35,6 @@
     }
 
     .laptopGif {
-      align-self: center;
       display: inline-flex;
       justify-content: center;
       width: 250px;
