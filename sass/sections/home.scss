@@ -1,0 +1,46 @@
+#home {
+  background-color: $backgroundColor;
+
+  .content {
+    .mainText {
+      color: white;
+      padding: 10px;
+  
+      .title, .subtitle {
+        font-size: 1.4rem;
+      }
+  
+      .name {
+        font-size: 1.8rem;
+      }
+    }
+
+    .contacts {
+      margin-left: 10px;
+      a {
+        display: inline-flex;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+
+        background-color: white;
+        border-radius: 25px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .laptopGif {
+      align-self: center;
+      display: inline-flex;
+      justify-content: center;
+      width: 250px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

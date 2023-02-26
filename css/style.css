@@ -10,6 +10,17 @@
   color: #333;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
 .header nav {
   position: fixed;
   display: flex;
@@ -18,6 +29,13 @@
   height: 10vh;
   width: 100%;
   background-color: white;
+}
+.header nav .logo {
+  font-size: 1.2rem;
+  color: #333;
+}
+.header nav .logo span {
+  color: #3878d9;
 }
 .header nav .pageLinks {
   list-style: none;
@@ -29,16 +47,16 @@
   top: 10vh;
   right: 0;
   height: 100vh;
-  width: 50vw;
+  width: 60vw;
   background: white;
-  transform: translateX(100vh);
+  transform: translateX(100vw);
   transition: all 0.7s;
 }
 .header nav .pageLinks li {
   margin-bottom: 100px;
 }
 .header nav .pageLinks.menuActive {
-  transform: translateY(0);
+  transform: translateX(0);
 }
 .header nav .mobileMenuButton {
   cursor: pointer;
@@ -50,9 +68,56 @@
   margin: 8px;
 }
 
-#home {
+.container {
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .content {
+  min-width: 50vw;
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home {
   background-color: #3878d9;
+}
+#home .content .mainText {
+  color: white;
+  padding: 10px;
+}
+#home .content .mainText .title, #home .content .mainText .subtitle {
+  font-size: 1.4rem;
+}
+#home .content .mainText .name {
+  font-size: 1.8rem;
+}
+#home .content .contacts {
+  margin-left: 10px;
+}
+#home .content .contacts a {
+  display: inline-flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 25px;
+}
+#home .content .contacts a img {
+  width: 100%;
+}
+#home .content .laptopGif {
+  align-self: center;
+  display: inline-flex;
+  justify-content: center;
+  width: 250px;
+}
+#home .content .laptopGif img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
