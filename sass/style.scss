@@ -1,4 +1,5 @@
 @import "commonElements/variables.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -24,3 +25,159 @@
 
 @import "sections/projects.scss";
 
+@media (min-width: 576px) {
+
+  * {
+    font-size: 30px;
+  }
+
+  .content {
+    min-width: 90vw;
+  }
+
+  #technologies {
+    .content {
+      .technologiesArea {
+        .technologiesGrid {
+          grid-template-columns: 1fr 1fr 1fr;
+
+          .tech {
+            max-width: 100px;
+            height: 120px;
+          }
+
+        }
+
+        .techDescArea {
+          min-height: 140px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    nav {
+      .mobileMenuButton {
+        display: none;
+      }
+
+      .pageLinks {
+        flex-direction: row;
+        transform: translateX(0);
+        background-color: transparent;
+        width: auto;
+        height: auto;
+        position: static;
+
+        li {
+          margin: 0 10px;
+          border-bottom: 3px solid transparent;
+          transition: all 0.5s;
+
+          a {
+            transition: all 0.5s;
+            font-size: 0.8rem;
+          }
+          
+          &:hover {
+            border-bottom: 3px solid $backgroundColor;
+            a {
+              color: $backgroundColor;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #projects {
+    .content {
+      .projectsArea {
+        display: flex;
+        gap: 10px;
+
+        a {
+          .project {
+            min-width: 300px;
+            max-width: 250px;
+            min-height: 170px;
+            max-height: 170px;
+            margin: 0;
+
+            position: relative;
+            overflow: hidden;
+            transition: all ease-in-out 0.5s;
+
+            &:hover .projectDesc {
+              top: 0;
+            }
+
+            .projectDesc {
+              display: flex;
+              align-items: center;
+              background-color: $backgroundColor;
+              font-size: 0.7rem;
+              position: absolute;
+              top: -150px;
+              height: 80%;
+              transition: all ease-out 0.5s;
+            }
+
+            .projectTitle {
+              background-color: $backgroundColor;
+              font-size: 0.65rem;
+              border: none;
+              position: absolute;
+              width: 100%;
+              height: 20%;
+              bottom: 0;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .content {
+    max-width: 1200px;
+  }
+
+  #home {
+    .content {
+      min-height: auto;
+      flex-direction: row;
+      .laptopGif {
+        width: 400px;
+      }
+    }
+  }
+
+  #aboutMe {
+    .content {
+      text-align: justify;
+    }
+  }
+  #technologies {
+    .content {
+      .technologiesArea {
+        .technologiesGrid {
+          .tech {
+            max-width: 100px;
+            height: 140px;
+          }
+        }
+
+        .techDescArea {
+          min-height: 240px;
+          text-align: justify;
+        }
+      }
+    }
+  }
+}
