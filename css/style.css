@@ -99,6 +99,15 @@ body {
   border-radius: 15px;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3878d9;
+  height: 10vh;
+  color: white;
+}
+
 #home {
   background-color: #3878d9;
 }
@@ -175,6 +184,30 @@ body {
   display: none;
 }
 #technologies .content .technologiesArea .technologiesGrid .techActive {
+  border-bottom: 2px solid white;
+}
+
+#projects .content .projectsArea a .project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3878d9;
+  max-width: 500px;
+  min-height: 150px;
+  margin: 10px 0;
+  color: white;
+  border: 4px solid #3878d9;
+  border-radius: 5px;
+}
+#projects .content .projectsArea a .project img {
+  width: 100%;
+}
+#projects .content .projectsArea a .project .projectDesc, #projects .content .projectsArea a .project .projectTitle {
+  text-align: center;
+  padding: 10px;
+}
+#projects .content .projectsArea a .project .projectTitle {
   border-bottom: 2px solid white;
 }
 

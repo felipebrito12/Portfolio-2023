@@ -100,3 +100,12 @@ body {
     }
   }
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $backgroundColor;
+  height: 10vh;
+  color: white;
+}
