@@ -143,6 +143,38 @@ body {
 
 #technologies {
   background-color: #3878d9;
+  color: white;
+  text-align: center;
+}
+#technologies .content .sectionTitleArea .sectionTitle {
+  color: white;
+}
+#technologies .content .sectionTitleArea .sectionBar {
+  background-color: white;
+}
+#technologies .content .technologiesArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#technologies .content .technologiesArea .technologiesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+#technologies .content .technologiesArea .technologiesGrid .tech {
+  max-width: 70px;
+  height: 100px;
+}
+#technologies .content .technologiesArea .technologiesGrid .tech img {
+  width: 100%;
+}
+#technologies .content .technologiesArea .technologiesGrid .tech .techDesc {
+  display: none;
+}
+#technologies .content .technologiesArea .technologiesGrid .techActive {
+  border-bottom: 2px solid white;
 }
 
 /*# sourceMappingURL=style.css.map */

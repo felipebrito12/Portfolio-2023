@@ -1,7 +1,47 @@
-#technologies{
+#technologies {
   background-color: $backgroundColor;
-  .content{
+  color: white;
+  text-align: center;
 
+  .content {
+    .sectionTitleArea {
+      .sectionTitle {
+        color: white;
+      }
 
+      .sectionBar {
+        background-color: white;
+      }
+    }
+
+    .technologiesArea {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .technologiesGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin-bottom: 30px;
+
+        .tech {
+          max-width: 70px;
+          height: 100px;
+          
+          img {
+            width: 100%;
+          }
+  
+          .techDesc {
+            display: none;
+          }
+        }
+
+        .techActive {
+          border-bottom: 2px solid white;
+        }
+      }
+    }
   }
 }
