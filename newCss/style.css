@@ -1,3 +1,39 @@
+.navbar {
+  min-height: 8vh;
+}
 
+.container-fluid {
+  min-height: 100vh;
+}
+.container-fluid .container00 {
+  min-height: 92vh;
+}
+
+.container00 {
+  background-image: url(../../images/background/home.jpg);
+  background-size: cover;
+  color: white;
+}
+.container00 .titleContent p {
+  font-size: clamp(1.3rem, 35px, 45px);
+}
+.container00 .titleContent h1 {
+  font-size: clamp(1.5rem, 50px, 70px);
+}
+.container00 .laptopImgContainer {
+  min-width: 300px;
+  max-width: 450px;
+}
+.container00 .laptopImgContainer img {
+  width: 100%;
+}
+
+.container01 {
+  background-color: #141029;
+  color: #fff;
+}
+.container01 span {
+  color: #3a76c5;
+}
 
 /*# sourceMappingURL=style.css.map */

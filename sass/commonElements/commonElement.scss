@@ -1,111 +1,11 @@
-body {
-  overflow-x: hidden;
+.navbar {
+  min-height: 8vh;
 }
 
-.header {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh;
-
-  nav {
-    position: fixed;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    height: 10vh;
-    width: 100%;
-    background-color: white;
-
-    .logo {
-      font-size: 1.2rem;
-      color: $links;
-
-      span {
-        color: $backgroundColor
-      }
-    }
-
-    .pageLinks {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-
-      position: absolute;
-      top: 10vh;
-      right: 0;
-
-      height: 100vh;
-      width: 60vw;
-      background: white;
-      transform: translateX(100vw);
-      transition: all 0.7s;
-
-      li {
-        margin-bottom: 100px;
-      }
-
-      &.menuActive {
-        transform: translateX(0);
-      }
-
-    }
-
-    .mobileMenuButton {
-      cursor: pointer;
-
-      .mobileMenuBar {
-        width: 32px;
-        height: 2px;
-        background-color: $backgroundColor;
-        margin: 8px;
-      }
-    }
-  }
-}
-
-.container {
+.container-fluid {
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  .content {
-    min-width: 50vw;
-    min-height: inherit;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 10px;
-
-    .sectionTitleArea {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 10vh 0;
-      .sectionTitle{
-        font-size: 1.5rem;
-      }
-      .sectionBar{
-        width: 70%;
-        height: 5px;
-        background-color: $backgroundColor;
-        border-radius: 15px;
-      }
-    }
+  .container00{
+    min-height: 92vh;
   }
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $backgroundColor;
-  height: 10vh;
-  color: white;
 }

@@ -11,7 +11,7 @@
   <title>Document</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark navigation">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark navigation" id="nav">
     <a href="" class="navbar-brand">
       Felipe Brito
     </a>
@@ -35,23 +35,41 @@
     </div>
   </nav>
 
-  <div class="container-fluid d-flex flex-column align-items-center justify-content-center container00">
-    <h1>FELIPE BRITO</h1>
-    <p>desenvolvedor front-end</p>
+  <div class="container-fluid d-flex align-items-center justify-content-center container00" id="home">
+    <div class="container">
+      <div class="row">
+
+        <div class="col col-lg d-flex justify-content-center align-items-end mb-5">
+          <div class="titleContent">
+            <p>Olá! Eu me chamo</p>
+            <h1>Felipe Brito</h1>
+            <p>e sou desenvolvedor front-end</p>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+          <div class="laptopImgContainer">
+            <img src="images/animations/laptop.gif" alt="laptop gif" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
   </div>
 
-  <div class="container-fluid pt-5 pb-5 d-flex flex-column align-items-center justify-content-center container01 bg-danger
-  ">
-    <h1>Sobre mim</h1>
-    <p>Meu nome é Felipe Brito Sousa e sempre tive interesse nas áreas de tecnologia. Ainda na adolescência tive meu
-      primeiro contato com programação atráves do GameMaker Studio. Uma engine direcionada para criação de jogos 2D
-      com linguagem própria. Apesar disso, meu caminho dentro da programação só começou realmente em julho de 2022,
-      através do desenvolvimento web.</p>
-    <p>Atualmente mantenho meus estudos no Front-end e estou buscando minha primeira experiência profissional na área,
-      mas com planos de futuramente adentrar no Back-end.</p>
+  <div class="container-fluid pt-5 pb-5 d-flex flex-column align-items-center justify-content-center container01" id="aboutMe">
+    <div class="container">
+      <h1 class="mb-5"><span>&lt;/</span>Sobre mim<span>&gt;</span></h1>
+      <p>Meu nome é Felipe Brito Sousa e sempre tive interesse nas áreas de tecnologia. Ainda na adolescência tive meu
+        primeiro contato com programação atráves do GameMaker Studio. Uma engine direcionada para criação de jogos 2D
+        com linguagem própria. Apesar disso, meu caminho dentro da programação só começou realmente em julho de 2022,
+        através do desenvolvimento web.</p>
+      <p>Atualmente mantenho meus estudos no Front-end e estou buscando minha primeira experiência profissional na área,
+        mas com planos de futuramente adentrar no Back-end.</p>
+    </div>
   </div>
 
-  <div class="container-fluid pt-5 pb-5 d-flex flex-column align-items-center justify-content-center container02">
+  <div class="container-fluid pt-5 pb-5 d-flex flex-column align-items-center justify-content-center container02" id="technologies">
     <div class="container">
 
       <div class="row" >
@@ -81,7 +99,7 @@
     </div>
   </div>
 
-  <div class="container-fluid pt-4 pb-4 d-flex flex-column align-items-center justify-content-center container03 bg-danger">
+  <div class="container-fluid pt-4 pb-4 d-flex flex-column align-items-center justify-content-center container03 bg-danger" id="projects">
     <div class="container">
 
       <div class="row justify-content-center">
@@ -128,7 +146,9 @@
     </div>
   </div>
 
-  <div class="container-fluid pt-4 pb-4 d-flex flex-column akign-items-center justify-content-center footer"></div>
+  <div class="container-fluid pt-4 pb-4 d-flex flex-column akign-items-center justify-content-center footer" id="footer">
+    <p>&copy; Felipe Brito</p>
+  </div>
 
 
 
