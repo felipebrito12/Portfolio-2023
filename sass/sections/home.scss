@@ -1,47 +1,23 @@
-#home {
-  background-color: $backgroundColor;
-  
-  .content {
-    .mainText {
-      align-self: flex-start;
-      color: white;
-      padding: 10px;
-  
-      .title, .subtitle {
-        font-size: 1.4rem;
-      }
-  
-      .name {
-        font-size: 1.8rem;
-      }
+.container00 {
+  background-image: url(../../images/background/home.jpg);
+  background-size: cover;
+
+  color: white;
+
+  .titleContent{
+    p {
+      font-size: clamp(1.3rem, 35px, 45px);
     }
-
-    .contacts {
-      margin-left: 10px;
-      align-self: flex-start;
-      a {
-        display: inline-flex;
-        justify-content: center;
-        width: 50px;
-        height: 50px;
-        padding: 5px;
-
-        background-color: white;
-        border-radius: 25px;
-        img {
-          width: 100%;
-        }
-      }
-    }
-
-    .laptopGif {
-      display: inline-flex;
-      justify-content: center;
-      width: 250px;
-
-      img {
-        width: 100%;
-      }
+    h1 {
+      font-size: clamp(1.5rem, 50px, 70px );
     }
   }
+  
+ .laptopImgContainer {
+  min-width: 300px;
+  max-width: 450px;
+  img{
+    width: 100%;
+  }
+ }
 }
