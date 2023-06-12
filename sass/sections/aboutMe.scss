@@ -1,8 +1,14 @@
 .container01 {
   background-color: #141029;
   color: #fff;
+  border-bottom: 2px solid #212199;
+
+  h1 {
+    text-align: center;
+  }
 
   p {
+    text-align: justify;
     font-size: 23px;
   }
 }

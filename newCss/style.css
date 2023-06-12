@@ -1,6 +1,13 @@
 .navbar {
   min-height: 8vh;
   background-color: #141029 !important;
+  border-bottom: 2px solid #212199;
+}
+.navbar .container {
+  font-size: 25px;
+}
+.navbar .container .navbar-brand {
+  font-size: 25px;
 }
 
 .container-fluid {
@@ -36,9 +43,26 @@ span {
 .container01 {
   background-color: #141029;
   color: #fff;
+  border-bottom: 2px solid #212199;
+}
+.container01 h1 {
+  text-align: center;
 }
 .container01 p {
+  text-align: justify;
   font-size: 23px;
+}
+
+.container02 {
+  background-color: #141029;
+  border-bottom: 2px solid #212199;
+  color: #fff;
+}
+.container02 .techIcon {
+  transition: 0.1s all ease-in-out;
+}
+.container02 .techIcon:hover {
+  scale: 1.1;
 }
 
 /*# sourceMappingURL=style.css.map */
