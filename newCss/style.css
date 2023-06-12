@@ -9,12 +9,19 @@
 .navbar .container .navbar-brand {
   font-size: 25px;
 }
+.navbar .container .navbar-collapse a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.15s ease-in-out;
+}
+.navbar .container .navbar-collapse a:hover {
+  color: #0069d9;
+}
 
 .container-fluid {
-  min-height: 100vh;
-}
-.container-fluid .container00 {
-  min-height: 92vh;
+  border-bottom: 2px solid #212199;
+  height: 100vh;
+  background-color: #141029;
 }
 
 span {
@@ -41,9 +48,7 @@ span {
 }
 
 .container01 {
-  background-color: #141029;
   color: #fff;
-  border-bottom: 2px solid #212199;
 }
 .container01 h1 {
   text-align: center;
@@ -54,8 +59,6 @@ span {
 }
 
 .container02 {
-  background-color: #141029;
-  border-bottom: 2px solid #212199;
   color: #fff;
 }
 .container02 .techIcon {
@@ -63,6 +66,19 @@ span {
 }
 .container02 .techIcon:hover {
   scale: 1.1;
+}
+
+.container03 h1 {
+  color: #fff;
+}
+.container03 .card {
+  min-height: 420px;
+}
+
+.footer {
+  background-color: #141029;
+  color: #fff;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

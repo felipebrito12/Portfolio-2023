@@ -1,36 +1,9 @@
-#projects {
-  .content {
-    .projectsArea {
-      a {
-        .project {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          
-          background-color: $backgroundColor;
-          max-width: 400px;
-          min-height: 150px;
-          margin: 10px 0;
-
-          color: white;
-          border: 4px solid $backgroundColor;
-          border-radius: 5px;
-
-          img {
-            width: 100%;
-          }
-
-          .projectDesc, .projectTitle {
-            text-align: center;
-            padding: 10px;
-          }
-          
-          .projectTitle{
-            border-bottom: 2px solid white;
-          }
-        }
-      }
-    }
+.container03 {
+  h1{
+    color: #fff;
   }
+
+  .card{
+    min-height: 420px;
+    }
 }

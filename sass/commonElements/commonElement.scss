@@ -2,23 +2,32 @@
   min-height: 8vh;
   background-color: #141029!important;
   border-bottom: 2px solid #212199;
-
+  
   .container {
     font-size: 25px;
     
-    .navbar-brand{
-      
+    .navbar-brand{ 
       font-size: 25px;
+    }
+
+    .navbar-collapse{
+      a{
+        text-decoration: none;
+        color: #fff;
+        transition: 0.15s ease-in-out;
+
+        &:hover{
+          color: #0069d9;
+        }
+      }
     }
   }
 }
 
 .container-fluid {
-  min-height: 100vh;
-
-  .container00{
-    min-height: 92vh;
-  }
+  border-bottom: 2px solid #212199;
+  height: 100vh;
+  background-color: #141029;
 }
 
 span {
