@@ -1,5 +1,6 @@
 .navbar {
   min-height: 8vh;
+  background-color: #141029 !important;
 }
 
 .container-fluid {
@@ -7,6 +8,10 @@
 }
 .container-fluid .container00 {
   min-height: 92vh;
+}
+
+span {
+  color: #3a76c5;
 }
 
 .container00 {
@@ -32,8 +37,8 @@
   background-color: #141029;
   color: #fff;
 }
-.container01 span {
-  color: #3a76c5;
+.container01 p {
+  font-size: 23px;
 }
 
 /*# sourceMappingURL=style.css.map */
