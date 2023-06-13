@@ -6,16 +6,17 @@
 
   .titleContent{
     p {
-      font-size: clamp(1.3rem, 35px, 45px);
+      font-size: 1.5rem;
     }
     h1 {
-      font-size: clamp(1.5rem, 50px, 70px );
+      font-size: 4rem;
     }
   }
   
  .laptopImgContainer {
-  min-width: 300px;
-  max-width: 450px;
+  min-width: 250px;
+  width: 500px;
+  max-width: 600px;
   img{
     width: 100%;
   }

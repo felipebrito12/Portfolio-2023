@@ -1,13 +1,14 @@
+:root {
+  font-size: 20px;
+}
+
 .navbar {
   min-height: 8vh;
   background-color: #141029 !important;
   border-bottom: 2px solid #212199;
 }
-.navbar .container {
-  font-size: 25px;
-}
 .navbar .container .navbar-brand {
-  font-size: 25px;
+  font-size: 1.3rem;
 }
 .navbar .container .navbar-collapse a {
   text-decoration: none;
@@ -20,7 +21,7 @@
 
 .container-fluid {
   border-bottom: 2px solid #212199;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #141029;
 }
 
@@ -34,14 +35,15 @@ span {
   color: white;
 }
 .container00 .titleContent p {
-  font-size: clamp(1.3rem, 35px, 45px);
+  font-size: 1.5rem;
 }
 .container00 .titleContent h1 {
-  font-size: clamp(1.5rem, 50px, 70px);
+  font-size: 4rem;
 }
 .container00 .laptopImgContainer {
-  min-width: 300px;
-  max-width: 450px;
+  min-width: 250px;
+  width: 500px;
+  max-width: 600px;
 }
 .container00 .laptopImgContainer img {
   width: 100%;
@@ -55,7 +57,7 @@ span {
 }
 .container01 p {
   text-align: justify;
-  font-size: 23px;
+  font-size: 1.3rem;
 }
 
 .container02 {
@@ -71,14 +73,62 @@ span {
 .container03 h1 {
   color: #fff;
 }
-.container03 .card {
-  min-height: 420px;
-}
 
 .footer {
   background-color: #141029;
   color: #fff;
-  font-size: 20px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 1.7rem;
+  }
+  .container00 .titleContent {
+    margin: 0 10px;
+  }
+  .container00 .titleContent p {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  .container00 .titleContent h1 {
+    font-size: 2.5rem;
+  }
+  .container01 p {
+    font-size: 1rem;
+  }
+  .container02 .techIcon:hover {
+    scale: 1;
+  }
+  .container02 h4 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 320px) {
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+  .container00 .titleContent p {
+    font-size: 1rem;
+  }
+  .container00 .titleContent h1 {
+    font-size: 1.4rem;
+  }
+  .container01 p {
+    font-size: 1rem;
+  }
+  .container02 h4 {
+    font-size: 1rem;
+  }
+  .container03 .card .card-body .card-title {
+    font-size: 1rem;
+  }
+  .container03 .card .card-body .card-text {
+    font-size: 0.8rem;
+  }
+  .container03 .card .card-body a {
+    font-size: 0.8rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
