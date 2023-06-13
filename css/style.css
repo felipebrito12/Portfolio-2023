@@ -30,7 +30,7 @@ span {
 }
 
 .container00 {
-  background-image: url("https://github.com/felipebrito12/Portfolio-2023/blob/main/images/background/home.jpg");
+  background: url("https://github.com/felipebrito12/Portfolio-2023/blob/main/images/background/home.jpg");
   background-size: cover;
   color: white;
 }
